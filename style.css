@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgb(204, 105, 24),white);
+}
+.logo-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-left>*{
+    margin: 10;
+}
+.header-right{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+
+}
+.header-links{
+    display: flex;
+    list-style: none;
+  
+    
+}
+.header-link{
+    margin: 10px;
+    font-size: larger;
+    color: white;
+}
+.header-link:hover{
+    font-size: 30px;
+    color: black;
+}

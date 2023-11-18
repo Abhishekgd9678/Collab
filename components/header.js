@@ -1,11 +1,28 @@
-const Header=()=>{
-
-    return(
-        <>
-        <h4>Header</h4>
-        </>
-    )
-}
-
+import { Link } from "react-router-dom";
+import logo from "../images/logo.png"
+const Header = () => {
+  return (
+    <>
+      <div className="header">
+        <div className="header-left">
+          <div className="logo">
+           <img className="logo-image" src={logo}/>
+          </div>
+          <div className="brand-name">
+            <h3>Sabzi Mandi</h3>
+          </div>
+        </div>
+        <div className="header-right">
+          <ul className="header-links">
+            <Link to="/Cart"><li className="header-link">Cart</li></Link>
+            <Link to="/Account"><li className="header-link">Account</li></Link>
+            <Link to="/About"><li className="header-link">About Us</li></Link>
+            <Link to="/Contact"><li className="header-link">Contact</li></Link>
+          </ul>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Header;
