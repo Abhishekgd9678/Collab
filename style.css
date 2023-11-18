@@ -44,7 +44,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 1.6rem;
-    background: linear-gradient(to right, rgb(17, 17, 78),white);
+    background: linear-gradient(to right, rgb(17, 78, 69),white);
    
     
 }
@@ -63,3 +63,33 @@
    width: 70px;
    height: 25px;
  }
+
+ .embla {
+    overflow: hidden;
+    justify-content: center;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+.sandbox__carousel{
+    width: 700px;
+}
+.sandbox__carousel img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sandbox{
+    display: flex;
+    justify-content: center;
+}
+  
