@@ -27,8 +27,13 @@
         },
         {
             "link":"https://cdn-icons-png.flaticon.com/512/7192/7192728.png",
-            "desp":"Green Leaves",
+            "desp":"Dry Fruits",
             "dis":"20"
+        },
+        {
+            "link":"https://cdn-icons-png.flaticon.com/512/2923/2923189.png",
+            "desp":"Green Leafy Vegetables",
+            "dis":"20" 
         }
     ]
 }
