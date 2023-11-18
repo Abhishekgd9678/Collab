@@ -1,7 +1,8 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(rgb(204, 105, 24),white);
+    background: rgb(22, 22, 54);
+    color: wheat;
 }
 .logo-image{
     height: 100px;
@@ -36,7 +37,7 @@
 }
 .header-link:hover{
     font-size: 30px;
-    color: black;
+    
 }
 /* 
 .Card{
@@ -98,7 +99,7 @@
     display: flex;
   }
   .embla__slide {
-    background: linear-gradient(to right, rgb(184, 179, 179),black);
+    background: rgb(38, 38, 80);
     
     height: 350px;
     flex: 0 0 100%;
