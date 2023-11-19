@@ -1,34 +1,21 @@
 import React, { useState } from 'react';
-import Images from '../images.js';
-import data from "./data.json"
+import Images from '../images_stack.js';
+import data from "../data_bb.json"
 
 const Card = () => {
   
   return (
-
-    <div className="Card">
-      <button className="btn">
-        {"<"}
-      </button>
-
-      {data.data.map((e)=>{
-        return (
-          <>
-          <div className='image-div'>
-       
-            <img className="round-image" src={e.link}/>
-             <h4 className='image-des'>{e.desp}</h4>
-        
-         
-          </div>
-          
-          </>
-        )
-      })}
-     
-      <button className="btn" >
-       {">"}
-      </button>
+    <div className='cards'>
+      {/* {
+        data.top_links.map((x)=>{
+          return(
+            <div>
+              <img src={x?.url}/>
+              <h3>{x?.display_name}</h3>
+            </div>
+          )
+        })
+      } */}
     </div>
   );
 };

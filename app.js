@@ -10,7 +10,6 @@ return(
     <>
     <Header/>
     <Carousal options={{loop:true}}/>
-    {/* <Card/> */}
     </>
 )
 

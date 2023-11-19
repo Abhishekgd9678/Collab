@@ -2,15 +2,15 @@ import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import data from "./components/data.json";
+import back_img from "./images/background.jpg"
 
 const EmblaCarousel = (props) => {
   const { options } = props;
-  const [emblaRef] = useEmblaCarousel(options, [Autoplay({ delay: 1500 })]);
+  const [emblaRef] = useEmblaCarousel(options, [Autoplay({ delay: 2500 })]);
 
   return (
   <>
   <div className="carousel-head">
-  <h4 className="tag"> Our Products</h4>
   </div>
   
     <div className="embla">
@@ -18,16 +18,12 @@ const EmblaCarousel = (props) => {
         <div className="embla__container">
           {data.data.map((x, index) => (
             <div className="embla__slide" key={index}>
-             
-                <img
-                  className="embla__slide__img"
-                  src={x.link}
-                  alt="Your alt text"
-                />
-            
-                <p className="embla-des">{x.desp}</p>
-              
-            </div>
+             <div class="parent">
+                <img class="embla_background" src={back_img} />
+                <img class="embla_img" src={x.link} />
+                <h3 className="embla-des">{x.desp}</h3>
+             </div>
+             </div>
           ))}
         </div>
       </div>

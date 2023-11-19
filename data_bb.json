@@ -1,0 +1,75 @@
+{
+    "top_links": [
+    {
+      "url": "https://www.bigbasket.com/pc/fruits-vegetables/exotic-fruits-veggies",
+      "slug": "exotic fruits & veggies",
+      "display_name": "Exotic Fruits & Veggies"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/beverages/tea",
+      "slug": "tea",
+      "display_name": "Tea"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/foodgrains-oil-masala/edible-oils-ghee/ghee-vanaspati",
+      "slug": "ghee",
+      "display_name": "Ghee"
+    },
+    {
+      "url": "https://www.bigbasket.com/pb/nandini",
+      "slug": "nandini",
+      "display_name": "Nandini"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/fruits-vegetables/fresh-vegetables/",
+      "slug": "vegetables",
+      "display_name": "Fresh Vegetables"
+    },
+    {
+      "url": "https://www.bigbasket.com/pb/kelloggs",
+      "slug": "kelloggs",
+      "display_name": "Kelloggs"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/bakery-cakes-dairy/dairy/milk",
+      "slug": "milk",
+      "display_name": "Milk"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/bakery-cakes-dairy/dairy/yogurt-shrikhand",
+      "slug": "yogurt",
+      "display_name": "Yogurt & Shrikhand"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/snacks-branded-foods/chocolates-candies/chocolates",
+      "slug": "chocolates",
+      "display_name": "Chocolates"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/snacks-branded-foods/noodle-pasta-vermicelli/cup-noodles",
+      "slug": "cup-noodles",
+      "display_name": "Cup Noodles"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/beauty-hygiene/hair-care",
+      "slug": "hair-care",
+      "display_name": "Hair Care"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/eggs-meat-fish/poultry/fresh-chicken",
+      "slug": "fresh-chicken",
+      "display_name": "Fresh Chicken"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/eggs-meat-fish/eggs",
+      "slug": "eggs",
+      "display_name": "Eggs"
+    },
+    {
+      "url": "https://www.bigbasket.com/pc/snacks-branded-foods/spreads-sauces-ketchup/honey",
+      "slug": "honey",
+      "display_name": "Honey"
+    }
+  ],
+  "api":"https://www.bigbasket.com/ui-svc/v2/header/?i=1700342483832"
+}

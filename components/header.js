@@ -9,7 +9,7 @@ const Header = () => {
            <Link to="/"><img className="logo-image" src={logo}/></Link>
           </div>
           <div className="brand-name">
-            <h3>Sabzi Mandi</h3>
+            <h3>Sabki Mandi</h3>
           </div>
         </div>
         <div className="header-right">

@@ -1,13 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     background: rgb(22, 22, 54);
     color: wheat;
+    height: 70px;
+}
+
+.brand-name h3{
+    font-size: 25px;
+}
+
+.logo{
+    width: 70px;
+    align-items: baseline;
 }
 .logo-image{
-    height: 100px;
-    width: 100px;
+    width: 80%;
     border-radius: 50%;
+    
 }
 .header-left{
     display: flex;
@@ -19,24 +38,26 @@
 }
 .header-right{
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
-   
-
+    margin-right: 20px;
 }
 .header-links{
-    display: flex;
     list-style: none;
-  
-    
+    display: flex;
+    height: 50px;
 }
+.header-links a{
+    text-decoration: none;
+}
+
 .header-link{
     margin: 10px;
-    font-size: larger;
+    font-size: 15px;
     color: white;
 }
 .header-link:hover{
-    font-size: 30px;
+    font-size: 20px;
     
 }
 /* 
@@ -80,27 +101,26 @@
 }
 
  .embla {
-    position: relative;
     left: 170px;
-    width: 80%;
-    display: flex;
-    margin: 0,5rem;
-    height: 400PX;
+    width: 100%;
+    margin: 0.5rem;
+    height: 400px;
     overflow: hidden;
-    justify-content: center;
-  
-   
-    border: 2px solid ;
-  }
-  .embla__container {
-   
-  
-   
+    border-radius: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .embla__viewport{
+    display: flex;
+    justify-content: center ;
+  } 
+  .embla__container {
+    display: flex;
+
   }
   .embla__slide {
-    background: rgb(38, 38, 80);
-    
     height: 350px;
     flex: 0 0 100%;
     min-width: 0;
@@ -111,27 +131,54 @@
 
 
 .sandbox__carousel img{
-   
-    
-    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.sandbox{
-    
+.sandbox{ 
     display: flex;
     justify-content: center;
 }
 .embla__slide__img{
-    padding: 0.8rem;
- 
+    padding: 100%;
+    position: absolute;
+    top: 2%;
+    left:17%;
 }
-.embla-des{
+.imageBack {
     position: relative;
-    top:343px;
-    right: 200px;
-    font-size: larger;
-    font-weight: 900;
+    top: 0;
+    left: 0;
+  }
+
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 550px;
+  }
+  
+  .embla_background {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+  }
+  
+  .embla_img {
+    position: absolute;
+    height: 80%;
+    top: 30px;
+    right: 30px;
+  }
+
+.embla-des{
+    position: absolute;
+    height: 30px;
+    top: 80px;
+    left: 30px;
 }
