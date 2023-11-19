@@ -1,0 +1,10 @@
+<div class="parent">
+                <img class="embla_background" src={back_img} />
+                <img class="embla_img" src={x.link} />
+                <h3 className="embla-des">{x.desp}</h3>
+</div>
+
+
+
+import data from "./components/data.json";
+import back_img from "./images/background.jpg"
