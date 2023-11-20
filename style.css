@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
+.root{
+    width: 100%;
+}
 
 .header{
     display: flex;
@@ -14,6 +17,7 @@
     background: rgb(22, 22, 54);
     color: wheat;
     height: 70px;
+    width: 100%;
 }
 
 .brand-name h3{
