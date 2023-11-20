@@ -93,6 +93,7 @@
    height: 25px;
  } */
 
+
 .carousel-head{
     display: flex;
     justify-content: center;
@@ -178,4 +179,10 @@
     font-size: xx-large;
     top: 80px;
     left: 30px;
+}
+.shop-button{
+position: relative;
+top:140px;
+right:780px;
+width: 90;
 }
