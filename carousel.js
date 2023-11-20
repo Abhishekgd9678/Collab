@@ -8,8 +8,10 @@ import {
 
 import data from "./components/data.json";
 import back_img from "./images/background.jpg"
+import { Link } from "react-router-dom";
 
 const EmblaCarousel = (props) => {
+  const url = "/buy/";
   const { slides, options } = props
   const [emblaRef, emblaApi] = useEmblaCarousel(options)
   const [prevBtnDisabled, setPrevBtnDisabled] = useState(true)
@@ -67,7 +69,11 @@ const EmblaCarousel = (props) => {
                 <img class="embla_img" src={data.data[index].link} />
                 <div className='slide-des'>
                 <h3 className="embla-des">{data.data[index].desp}</h3>
-                <button className='btn btn-primary btn-lg shop-button'>Shop Now</button>
+                <Link to = {url+data.data[index].desp}>
+                <button 
+                className='btn btn-primary btn-lg shop-button'
+                >Shop Now</button>
+                </Link>
                 </div>
                 
                 

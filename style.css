@@ -11,6 +11,11 @@
     width: 100%;
 }
 
+/* all a tags */
+.brand-name > a{
+    text-decoration: none;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -204,4 +209,38 @@
     width: 90;
     bottom: 60px;
     left:45px
+}
+
+.side_imgs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.side_img {
+    height:50px;
+    margin: 4px;
+    border: 2px solid black;
+}
+.side_img:hover {
+    border: 2px solid rgb(180, 38, 38);
+}
+.side_img > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.images_section {
+    display: flex;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+.display_img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid black;
+}
+.display_img > img{
+    width: 100%;
+    height: 100%;
 }

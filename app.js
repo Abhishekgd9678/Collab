@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
-import  {createBrowserRouter,RouterProvider} from 'react-router-dom';
+import  {createBrowserRouter,Outlet,RouterProvider} from 'react-router-dom';
 import Header from "./components/header";
 import Card from "./components/item-card";
 import Carousal from "./carousel"
@@ -9,16 +9,18 @@ import "./components/css_files/embla.css"
 import "./components/css_files/sandbox.css"
 
 import data from './components/data.json'
+import Buy from "./components/buy"
+import Buy_page from "./components/buy_page";
+import { Outlet } from "react-router-dom";
 
 const SLIDES = Array.from(Array(data.data.length).keys())
-console.log(SLIDES)
 
 const Applayout =()=>{
 return(
-    <>
+    <> 
     <Header/>
-    <Carousal slides={SLIDES} options={{loop:true}}/>
-    <Card />
+    <Outlet />
+    {/* <Card /> */}
     </>
 )
 
@@ -26,8 +28,25 @@ return(
 }
 const Approuter=createBrowserRouter([{
     path:"/",
-    element:<Applayout/>
-}])
+    element:<Applayout/>,
+    children:[
+        {
+            path:'/',
+            element:<Carousal slides={SLIDES} options={{loop:true}}/>
+        },
+        {
+            path:"buy_page",
+            element:<Buy_page/>
+        },
+        {
+            path:"buy/:id",
+            element:<Buy />    
+        },
+    ]
+    },
+    
+    
+])
 
 
 
