@@ -18,6 +18,7 @@ return(
     <>
     <Header/>
     <Carousal slides={SLIDES} options={{loop:true}}/>
+    <Card />
     </>
 )
 
