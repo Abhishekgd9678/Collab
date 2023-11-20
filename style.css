@@ -68,10 +68,7 @@
     justify-content: space-evenly;
 }
 .card{
-    display: flex;
-    flex-direction: column;
     width: 250px;
-    border: 2px solid black;
     justify-content: center;
     margin: 20px;
 }
@@ -85,6 +82,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+    font-size: 15px;
 }
 /*
 .image-div{
@@ -195,9 +193,11 @@
     top: 80px;
     left: 30px;
 }
+
+
 .shop-button{
-position: relative;
-top:140px;
-right:780px;
-width: 90;
+    position: absolute  ;
+    width: 90;
+    bottom: 60px;
+    left:45px
 }
