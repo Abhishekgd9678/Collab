@@ -2,7 +2,7 @@
     "data":[
         {
             "link":"https://cdn-icons-png.flaticon.com/512/10107/10107601.png",
-            "desp":"Fresh Carrot and Tomato",
+            "desp":"Fresh Carrot",
             "dis":"20",
             "id":"/10107/10107601.png"
         },
@@ -14,7 +14,7 @@
         },
         {
             "link":"https://cdn-icons-png.flaticon.com/512/9954/9954768.png",
-            "desp":"Pure MILk",
+            "desp":"Milk",
             "dis":"20",
             "id":"/9954/9954768.png"
         },
@@ -42,5 +42,34 @@
             "dis":"20" ,
             "id":"/2923/2923189.png"
         }
-    ]
+    ],
+            "Green Leafy Vegetables":  [
+                40.0,
+                75.0
+               ],
+              "Dry Fruits":  [
+                500.0,
+                950.0
+               ],
+              "Bread Jam Butter":  [
+                150.0,
+                280.0
+               ],
+              "Eggs":  [
+                70.0
+               ],
+              "Milk":  [
+                60.0,
+                110.0
+               ],
+              "Fresh Apples":  [
+                120.0,
+                230.0
+               ],
+              "Fresh Carrot":  [
+                40.0,
+                75.0
+               ]
 }
+
+

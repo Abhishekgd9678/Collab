@@ -32,7 +32,7 @@ const Approuter=createBrowserRouter([{
     children:[
         {
             path:'/',
-            element:<Carousal slides={SLIDES} options={{loop:true}}/>
+            element:[<Carousal slides={SLIDES} options={{loop:true,autoplay:true}}/>,<Card/>]
         },
         {
             path:"buy_page",
