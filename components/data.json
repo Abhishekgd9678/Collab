@@ -43,33 +43,356 @@
             "id":"/2923/2923189.png"
         }
     ],
-            "Green Leafy Vegetables":  [
-                40.0,
-                75.0
-               ],
-              "Dry Fruits":  [
-                500.0,
-                950.0
-               ],
-              "Bread Jam Butter":  [
-                150.0,
-                280.0
-               ],
-              "Eggs":  [
-                70.0
-               ],
-              "Milk":  [
-                60.0,
-                110.0
-               ],
-              "Fresh Apples":  [
-                120.0,
-                230.0
-               ],
-              "Fresh Carrot":  [
-                40.0,
-                75.0
-               ]
+    "Green Leafy Vegetables": [
+        {
+          "quantity": "1 kg",
+          "price": 40.0,
+          "discountPercentage": 20,
+          "description": "Healthy green leafy vegetables"
+        },
+        {
+          "quantity": "2 kg",
+          "price": 75.0,
+          "discountPercentage": 20,
+          "description": "Healthy green leafy vegetables"
+        }
+      ],
+      "Dry Fruits": [
+        {
+          "quantity": "1 kg",
+          "price": 500.0,
+          "discountPercentage": 20,
+          "description": "Assorted dry fruits"
+        },
+        {
+          "quantity": "2 kg",
+          "price": 950.0,
+          "discountPercentage": 20,
+          "description": "Assorted dry fruits"
+        }
+      ],
+      "Bread Jam Butter": [
+        {
+          "quantity": "1 kg",
+          "price": 150.0,
+          "discountPercentage": 20,
+          "description": "Essentials for your breakfast"
+        },
+        {
+          "quantity": "2 kg",
+          "price": 280.0,
+          "discountPercentage": 20,
+          "description": "Essentials for your breakfast"
+        }
+      ],
+      "Eggs": [
+        {
+          "quantity": "1 dozen",
+          "price": 70.0,
+          "discountPercentage": 20,
+          "description": "Farm-fresh eggs"
+        }
+      ],
+      "Milk": [
+        {
+          "quantity": "1 liter",
+          "price": 60.0,
+          "discountPercentage": 20,
+          "description": "Pure and fresh milk"
+        },
+        {
+          "quantity": "2 liters",
+          "price": 110.0,
+          "discountPercentage": 20,
+          "description": "Pure and fresh milk"
+        }
+      ],
+      "Fresh Apples": [
+        {
+          "quantity": "1 kg",
+          "price": 120.0,
+          "discountPercentage": 20,
+          "description": "Juicy and crisp apples"
+        },
+        {
+          "quantity": "2 kg",
+          "price": 230.0,
+          "discountPercentage": 20,
+          "description": "Juicy and crisp apples"
+        }
+      ],
+      "Fresh Carrot": [
+        {
+          "quantity": "1 kg",
+          "price": 40.0,
+          "discountPercentage": 20,
+          "description": "Sweet and crunchy carrots"
+        },
+        {
+          "quantity": "2 kg",
+          "price": 75.0,
+          "discountPercentage": 20
+        }],
+        "Apple": [
+            {
+              "quantity": "1 kg",
+              "price": 120.0,
+              "discountPercentage": 15,
+              "description": "Juicy and sweet apples from Himachal Pradesh"
+            },
+            {
+              "quantity": "2 kg",
+              "price": 230.0,
+              "discountPercentage": 15
+            }
+          ],
+          "Banana": [
+            {
+              "quantity": "1 dozen",
+              "price": 30.0,
+              "discountPercentage": 10,
+              "description": "Ripe and yellow bananas from Kerala"
+            },
+            {
+              "quantity": "2 dozen",
+              "price": 55.0,
+              "discountPercentage": 10
+            }
+          ],
+          "Carrot": [
+            {
+              "quantity": "1 kg",
+              "price": 40.0,
+              "discountPercentage": 20,
+              "description": "Sweet and crunchy carrots from Ooty"
+            },
+            {
+              "quantity": "2 kg",
+              "price": 75.0,
+              "discountPercentage": 20
+            }
+          ],
+          "Grapes": [
+            {
+              "quantity": "500g",
+              "price": 80.0,
+              "discountPercentage": 15,
+              "description": "Fresh and seedless grapes from Nashik"
+            },
+            {
+              "quantity": "1 kg",
+              "price": 150.0,
+              "discountPercentage": 15
+            }
+          ],
+          "Lettuce": [
+            {
+              "quantity": "1 head",
+              "price": 25.0,
+              "discountPercentage": 10,
+              "description": "Crisp and fresh lettuce for salads"
+            },
+            {
+              "quantity": "2 heads",
+              "price": 45.0,
+              "discountPercentage": 10
+            }
+          ],
+          "Orange": [
+            {
+              "quantity": "1 dozen",
+              "price": 60.0,
+              "discountPercentage": 12,
+              "description": "Tangy and juicy oranges from Nagpur"
+            },
+            {
+              "quantity": "2 dozen",
+              "price": 110.0,
+              "discountPercentage": 12
+            }
+          ],
+          "Broccoli": [
+            {
+              "quantity": "500g",
+              "price": 40.0,
+              "discountPercentage": 15,
+              "description": "Nutrient-rich broccoli for a healthy diet"
+            },
+            {
+              "quantity": "1 kg",
+              "price": 75.0,
+              "discountPercentage": 15
+            }
+          ],
+          "Strawberry": [
+            {
+              "quantity": "250g",
+              "price": 80.0,
+              "discountPercentage": 18,
+              "description": "Sweet and succulent strawberries"
+            },
+            {
+              "quantity": "500g",
+              "price": 150.0,
+              "discountPercentage": 18
+            }
+          ],
+          "Tomato": [
+            {
+              "quantity": "1 kg",
+              "price": 30.0,
+              "discountPercentage": 10,
+              "description": "Ripe and red tomatoes for cooking"
+            },
+            {
+              "quantity": "2 kg",
+              "price": 55.0,
+              "discountPercentage": 10
+            }
+          ],
+          "Cucumber": [
+            {
+              "quantity": "500g",
+              "price": 20.0,
+              "discountPercentage": 8,
+              "description": "Fresh and crunchy cucumbers"
+            },
+            {
+              "quantity": "1 kg",
+              "price": 35.0,
+              "discountPercentage": 8
+            }
+          ],
+          "Watermelon": [
+            {
+              "quantity": "1 piece",
+              "price": 60.0,
+              "discountPercentage": 12,
+              "description": "Sweet and hydrating watermelon"
+            },
+            {
+              "quantity": "1/2 piece",
+              "price": 35.0,
+              "discountPercentage": 12
+            }
+          ],
+          "Spinach": [
+            {
+              "quantity": "500g",
+              "price": 25.0,
+              "discountPercentage": 10,
+              "description": "Nutrient-packed spinach leaves"
+            },
+            {
+              "quantity": "1 kg",
+              "price": 45.0,
+              "discountPercentage": 10
+            }
+          ],
+          "Mango": [
+            {
+              "quantity": "1 dozen",
+              "price": 100.0,
+              "discountPercentage": 20,
+              "description": "Sweet and juicy mangoes from Alphonso orchards"
+            },
+            {
+              "quantity": "2 dozen",
+              "price": 190.0,
+              "discountPercentage": 20
+            }
+          ],
+          "Potato": [
+            {
+                "quantity": "1 kg",
+                "price": 20.0,
+                "discountPercentage": 10,
+                "description": "Fresh and versatile potatoes for cooking"
+            },
+            {
+                "quantity": "2 kg",
+                "price": 35.0,
+                "discountPercentage": 10
+              }
+           ],
+           "Pineapple": [
+            {
+              "quantity": "1 piece",
+              "price": 60.0,
+              "discountPercentage": 15,
+              "description": "Sweet and tropical pineapple"
+            },
+            {
+              "quantity": "1/2 piece",
+              "price": 35.0,
+              "discountPercentage": 15
+            }
+          ],
+          "Bell Pepper": [
+            {
+              "quantity": "250g",
+              "price": 40.0,
+              "discountPercentage": 12,
+              "description": "Colorful and crunchy bell peppers"
+            },
+            {
+              "quantity": "500g",
+              "price": 75.0,
+              "discountPercentage": 12
+            }
+          ],
+          "Avocado": [
+            {
+              "quantity": "1 piece",
+              "price": 80.0,
+              "discountPercentage": 18,
+              "description": "Creamy and nutritious avocados"
+            },
+            {
+              "quantity": "2 pieces",
+              "price": 150.0,
+              "discountPercentage": 18
+            }
+          ],
+          "Cabbage": [
+            {
+              "quantity": "1 piece",
+              "price": 25.0,
+              "discountPercentage": 8,
+              "description": "Fresh and crisp cabbage for salads"
+            },
+            {
+              "quantity": "1/2 piece",
+              "price": 45.0,
+              "discountPercentage": 8
+            }
+          ],
+          "Kiwi": [
+            {
+              "quantity": "4 pieces",
+              "price": 100.0,
+              "discountPercentage": 15,
+              "description": "Tangy and vitamin-packed kiwi fruits"
+            },
+            {
+              "quantity": "8 pieces",
+              "price": 190.0,
+              "discountPercentage": 15
+            }
+          ],
+          "Cauliflower": [
+            {
+              "quantity": "1 piece",
+              "price": 30.0,
+              "discountPercentage": 12,
+              "description": "Fresh and crisp cauliflower heads"
+            },
+            {
+              "quantity": "1/2 piece",
+              "price": 55.0,
+              "discountPercentage": 12
+            }
+          ]
 }
 
 

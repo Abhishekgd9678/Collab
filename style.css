@@ -81,10 +81,13 @@
     justify-content: center;
     margin: 20px;
 }
+.card a{
+    text-decoration: none;
+    color: black;
+}
 .card img{
     padding: 20px;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
 }
 .card p{
     display: flex;
@@ -213,7 +216,6 @@
 
 .buy-data{
     width: 100%;
-    border: 1px solid red;
     display: flex;
 }
 
@@ -238,10 +240,13 @@
 .images_prices {
     display: flex;
     justify-content: space-around;
-    margin-top: 15px;
-    border: 1px solid black;
+    margin-top: 25px;
+    border: none;
     width: 100%;
     padding: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .display_img{
     width: 400px;
@@ -256,18 +261,77 @@
 
 /* prices */
 .pricing_display{
-    padding: 15px;
+    padding: 5px;
 }
 
 .price_box{
-    border: 2px solid maroon;
-    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 45px;
     font-size: x-large;
-    width: 30vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.price_box_flex{
+    width: 300px;
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    flex-direction: row;
 }
+.pricebox_tick{
+    margin-right: 5px;
+}
+
 .price_box:hover{
     background-color: aliceblue;
+}
+.price_section > h2{
+    font-weight: bold;
+    font-size: x-large;
+}
+.price_section > p{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.price_section{
+    margin-top: 10px;
+    width: 500px;
+}
+.strikeMRP{
+    text-decoration: line-through;
+}
+.buy_button{
+    display: flex;
+
+}
+.addbtn, .savebtn {
+    width: 100%;
+    height: 50px;
+    margin:15px 5px;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+}
+.addbtn{
+    background-color: red;
+    color: white;
+}
+.addbtn:hover {
+    color: black;
+}
+.savebtn{
+    color: black;
+}
+.savebtn:hover{
+    background-color: rgb(171, 255, 171);
+}
+.item_select{
+    display: none;
+}
+.item_selected{
+    display: flex;
 }

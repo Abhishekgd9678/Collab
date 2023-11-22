@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import fruitsAndVegetables from './card';
+import { Link } from 'react-router-dom';
 
 const clientId = 'n_F01GuAtjZop_zy9iR53CtCOGe53EtWAgC_MiVwNmY';
 const UNSPLASH_ROOT = 'https://api.unsplash.com';
@@ -21,7 +22,7 @@ const ItemCard = () => {
             return {
               name: fruitOrVegetable,
               description: data.results[0].alt_description,
-              img_url: data.results[0].urls.full,
+              img_url: data.results[0].urls.regular,
               // pricing: /* Fetch pricing data or use a placeholder */,
             };
           })
@@ -40,8 +41,10 @@ const ItemCard = () => {
     <div className="cards">
         {items.map((item, index) => (
           <div className='card'>
+            <Link to={"/buy/"+item.name} >
             <img src={item.img_url} />
-            <p key={index}>{item.description}</p>
+            <p key={index}>{item.name}</p>
+          </Link>
           </div>
         ))}
     </div>
