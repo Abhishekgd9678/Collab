@@ -11,7 +11,6 @@
     width: 100%;
 }
 
-/* all a tags */
 .brand-name > a{
     text-decoration: none;
 }
@@ -87,7 +86,6 @@
 }
 .card img{
     padding: 20px;
-    /* width: 100%; */
 }
 .card p{
     display: flex;
@@ -96,28 +94,6 @@
     padding: 10px;
     font-size: 15px;
 }
-/*
-.image-div{
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-
-.round-image{
-    
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    
-}
-.btn{
-   width: 70px;
-   height: 25px;
- } */
-
 
 .carousel-head{
     display: flex;
@@ -259,13 +235,12 @@
     height: 100%;
 }
 
-/* prices */
 .pricing_display{
     padding: 5px;
 }
 
 .price_box{
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     height: 45px;
     font-size: x-large;
@@ -287,6 +262,11 @@
 
 .price_box:hover{
     background-color: aliceblue;
+    cursor: pointer;
+}
+.addborder {
+    border: 2px solid green;
+    background-color: rgb(142, 195, 142);
 }
 .price_section > h2{
     font-weight: bold;

@@ -61,7 +61,7 @@
                 <div className="pricing_display">
                         {data[id].map((x,index)=>{
                             return (
-                                <div className="price_box" 
+                                <div className={activeIndex==index?'addborder price_box':' price_box'}
                                     onClick={()=>{
                                         setAmount(x.quantity);
                                         setPrice(x.price);
