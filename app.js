@@ -3,7 +3,7 @@ import ReactDOM  from "react-dom/client";
 import  {createBrowserRouter,Outlet,RouterProvider} from 'react-router-dom';
 import Header from "./components/header";
 import Card from "./components/item-card";
-import Carousal from "./carousel"
+import Carousal from "./components/carousel"
 import "./components/css_files/base.css"
 import "./components/css_files/embla.css"
 import "./components/css_files/sandbox.css"
@@ -23,16 +23,17 @@ return(
     {/* <Card /> */}
     </>
 )
-
-
 }
+// <Carousal slides={SLIDES} options={{loop:true,autoplay:true}}/>
+
+
 const Approuter=createBrowserRouter([{
     path:"/",
     element:<Applayout/>,
     children:[
         {
             path:'/',
-            element:[<Carousal slides={SLIDES} options={{loop:true,autoplay:true}}/>,<Card/>]
+            element:<Card/>
         },
         {
             path:"buy_page",

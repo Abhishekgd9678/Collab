@@ -5,13 +5,14 @@ import {
   DotButton,
   PrevButton,
   NextButton
-} from './components/EmblaCarouselArrowsDotsButtons'
+} from './EmblaCarouselArrowsDotsButtons'
 
-import data from "./components/data.json";
-import back_img from "./images/background.jpg"
+import data from "./data.json";
+import back_img from "../images/background.jpg"
 import { Link } from "react-router-dom";
 
 const EmblaCarousel = (props) => {
+  const value  = 3;
   const url = "/buy/";
   const { slides, options } = props
   const [emblaRef, emblaApi] = useEmblaCarousel(options)
@@ -60,7 +61,7 @@ const EmblaCarousel = (props) => {
           <div className="embla__container">
             {slides.map((index) => (
               <>
-              <div className="embla__slide" key={index}>
+              <div className="embla__slide w-[100px] px-5" key={index}>
                 <div className="embla__slide__number">
                   <span>{index + 1}</span>
                 </div>
@@ -88,7 +89,7 @@ const EmblaCarousel = (props) => {
           <PrevButton onClick={scrollPrev} disabled={prevBtnDisabled} />
           <NextButton onClick={scrollNext} disabled={nextBtnDisabled} />
         </div>
-      <div className="embla__dots"> 
+      <div className="embla__dots relative"> 
         {scrollSnaps.map((_, index) => (
           <DotButton
             key={index}

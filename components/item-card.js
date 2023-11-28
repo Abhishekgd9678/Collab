@@ -18,7 +18,6 @@ const ItemCard = () => {
             const { data } = await axios.get(
               `${UNSPLASH_ROOT}/search/photos?query=${fruitOrVegetable}&client_id=${clientId}&per_page=1`
             );
-            console.log(data);
             return {
               name: fruitOrVegetable,
               description: data.results[0].alt_description,
@@ -38,13 +37,13 @@ const ItemCard = () => {
   }, []);
 
   return (
-    <div className="cards">
+    <div className="flex flex-wrap justify-around">
         {items.map((item, index) => (
-          <div className='card'>
+          <div className='w-[300px] p-3 m-3 shadow-md'>
             <Link to={"/buy/"+item.name} >
-            <img src={item.img_url} />
-            <p key={index}>{item.name}</p>
+            <img className="h-[400px] w-full object-cover" src={item.img_url} />
           </Link>
+          <p>{item.name}</p>
           </div>
         ))}
     </div>

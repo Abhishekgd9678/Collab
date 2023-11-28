@@ -1,5 +1,5 @@
 const fruitsAndVegetables = [
-    "Apple",
+    "Apple ",
     "Banana",
     "Carrot",
     "Grapes",
